@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/user")
+@RequestMapping("/user") //mapping /user
 public class UserController {
 
-    @GetMapping("/login")
+    @GetMapping("/login") //mapping /login
     @ResponseBody
     public String getLoginPage(){
         return "call getLoginPage";
