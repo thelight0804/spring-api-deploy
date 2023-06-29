@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.gdsc.thelight0804'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1-TEST'
 
 java {
     sourceCompatibility = '17'

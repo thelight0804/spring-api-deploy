@@ -30,4 +30,14 @@ public class UserController {
     ){
         return "user/login";
     }
+    /*
+        public String login(
+        @Parameter(name="user", description = "user class") User user
+    ){
+        User user1 = new User();
+        user1.setUsername("test");
+        user1.setPassword("test");
+        return "user/login";
+    }
+     */
 }
